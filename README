@@ -4,3 +4,23 @@ TiCustomizeTabGroup Module
 This module can help to customize font family, color, size and shadow for TabGroup and fix issue with padding for activeTabBackgroundImage
 
 
+var Customizer = require('ua.com.ipublisher.customize.tab.group');
+Customizer.customizeNormalTabText({
+    textColor:      '#ffffff',
+    shadowColor:    'gray', 
+    font:           {
+        fontSize:   13,
+        fontFamily: 'Arial', 
+        fontWeight: 'normal'
+    }
+});
+Customizer.customizeHighlightedTabText({
+    textColor:      '#ffffff',
+    shadowColor:    'gray', 
+    font:           {
+        fontSize:   13,
+        fontFamily: 'Arial', 
+        fontWeight: 'normal'
+    }
+});
+Customizer.customizeTabSelectedImage("/images/tab-back-slected.png");
