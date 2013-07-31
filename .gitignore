@@ -1,7 +1,6 @@
 tmp
 bin
 build
-*.zip
 *.a
 *.dll
 *.dylib
@@ -19,3 +18,4 @@ build*.a
 *.obj
 *.so
 build
+TiCustomizeTabGroup.xcodeproj/project.xcworkspace/xcuserdata/admin.xcuserdatad/UserInterfaceState.xcuserstate
