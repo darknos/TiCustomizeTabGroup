@@ -141,6 +141,8 @@
 /* Begin PBXProject section */
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "TiCustomizeTabGroup" */;
 			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
@@ -223,7 +225,8 @@
 				HEADER_SEARCH_PATHS = (
 					"$(TITANIUM_BASE_SDK)",
 					"$(TITANIUM_BASE_SDK2)",
-					"$(TITANIUM_BASE_SDK)/ASI",
+					"$(TITANIUM_BASE_SDK3)",
+					"$(TITANIUM_BASE_SDK4)",
 				);
 				INSTALL_PATH = /usr/local/lib;
 				LIBRARY_SEARCH_PATHS = "";
@@ -265,7 +268,8 @@
 				HEADER_SEARCH_PATHS = (
 					"$(TITANIUM_BASE_SDK)",
 					"$(TITANIUM_BASE_SDK2)",
-					"$(TITANIUM_BASE_SDK)/ASI",
+					"$(TITANIUM_BASE_SDK3)",
+					"$(TITANIUM_BASE_SDK4)",
 				);
 				INSTALL_PATH = /usr/local/lib;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
